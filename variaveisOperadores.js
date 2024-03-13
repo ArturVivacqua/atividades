@@ -1,8 +1,38 @@
-var n1 = prompt("Digite o primeiro número")
-var n2 = prompt("Digite o segundo número")
+const j = 1;
+console.log('j = ' + j)
+var n = 1.5;
+var n = 2.3;
+console.log('n = ' + n)
 
-n1 = parseFloat(n1)
-n2 = parseFloat(n2)
+let m = 1;
+m = 2.000001;
+console.log('m = ' + m)
 
-var soma = n1 + n2
-alert("A soma dos valores é: " + soma)
+const minhaString = 'Ab"C"d'
+console.log(minhaString)
+
+let booleanA = true;
+let booleanB = false;
+
+booleanA = 0;
+booleanB = -1;
+
+if(booleanA){
+    console.log('booleanA')
+}
+
+if(booleanB){
+    console.log('booleanB')
+}
+
+let nulo = null;
+let u;
+console.log(nulo)
+console.log(u)
+
+
+let a = 2
+let b = 3
+let c = a + b
+console.log(`Resultado da + entre ${a} e ${b} = ${c}`)
+console.log("Resultado da + entre "+ a +" e "+ b +" = " + c)
